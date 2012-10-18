@@ -1,0 +1,11 @@
+# Default messages for BuildRankInfo plugin
+rank:
+  help: To find out about a specific rank, use the command like /rankinfo <rank>
+  owner: Only Joebladon has the owner rank. This is not attainable.
+  admin: Get a special invite from Joebladon.
+  mod: Pass your TrialMod period and maintain active Moderator duties
+  trialmod: PM an application to Bure and/or Naraten using the template found on the forums
+  tier4: Donate 80 Pounds to the Survival server OR buy a slot from someone who has donated at whatever price they set.
+  tier3: Donate 50 Pounds to the Survival server OR buy a slot from someone who has donated at whatever price they set.
+  tier2: Donate 25 Pounds to the Survival server OR buy a slot from someone who has donated at whatever price they set.
+  tier1: Donate 15 Pounds to the Survival server OR buy a slot from someone who has donated at whatever price they set.

@@ -1,0 +1,14 @@
+name: SurvivalRankInfo
+main: com.github.cmptrzd1592.SurvivalRankInfo.SurvivalRankInfo
+version: 1.0
+
+commands:
+   rankinfo:
+      description: This is the global command. Does not display information about the specific ranks if the user does not specify the rank they want to learn about.
+      usage: /<command> <rank>
+      permission: survivalrankinfo.rankinfo
+      permission-message: You do not have permission to do this.
+permissions:
+   survivalrankinfo.rankinfo:
+      description: Core plugin command
+      default: true
