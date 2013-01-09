@@ -38,8 +38,9 @@ public class SurvivalRankInfo extends JavaPlugin {
             	if(args.length == 0){
             		player.sendMessage(ChatColor.RED + "ERROR: /rankinfo [rank]");
             		return true;
-            	}
-            	else if(args[0].equalsIgnoreCase("tier1") || args[0].equalsIgnoreCase("t1")){
+            	}else if(args[0].equalsIgnoreCase("member") || args[0].equalsIgnoreCase("m")){
+            		player.sendMessage(ChatColor.DARK_GRAY + "Member" + ChatColor.LIGHT_PURPLE + ": " + getConfig().getString("rank.member"));
+            	}else if(args[0].equalsIgnoreCase("tier1") || args[0].equalsIgnoreCase("t1")){
                     player.sendMessage(ChatColor.DARK_BLUE + "Tier 1" + ChatColor.LIGHT_PURPLE + ": " + getConfig().getString("rank.tier1"));
             	}else if(args[0].equalsIgnoreCase("tier2") || args[0].equalsIgnoreCase("t2")){
                     player.sendMessage(ChatColor.DARK_GREEN + "Tier 2" + ChatColor.LIGHT_PURPLE + ": " + getConfig().getString("rank.tier2"));
@@ -49,7 +50,7 @@ public class SurvivalRankInfo extends JavaPlugin {
                     player.sendMessage(ChatColor.AQUA + "Tier 4" + ChatColor.LIGHT_PURPLE + ": " + getConfig().getString("rank.tier4"));
                 }else if(args[0].equalsIgnoreCase("trialmod") || args[0].equalsIgnoreCase("tm")){
                     player.sendMessage(ChatColor.RED + "TrialMod" + ChatColor.LIGHT_PURPLE + ": " + getConfig().getString("rank.trialmod"));
-                }else if(args[0].equalsIgnoreCase("moderator") || args[0].equalsIgnoreCase("mod") || args[0].equalsIgnoreCase("m")){
+                }else if(args[0].equalsIgnoreCase("moderator") || args[0].equalsIgnoreCase("mod")){
                     player.sendMessage(ChatColor.RED + "Moderator" + ChatColor.LIGHT_PURPLE + ": " + getConfig().getString("rank.mod"));
                 }else if(args[0].equalsIgnoreCase("admin")){
                     player.sendMessage(ChatColor.DARK_RED + "Admin" + ChatColor.LIGHT_PURPLE + ": " + getConfig().getString("rank.admin"));
