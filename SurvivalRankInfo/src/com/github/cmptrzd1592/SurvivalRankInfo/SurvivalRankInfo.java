@@ -48,7 +48,7 @@ public class SurvivalRankInfo extends JavaPlugin {
                     player.sendMessage(ChatColor.GOLD + "Tier 3" + ChatColor.LIGHT_PURPLE + ": " + getConfig().getString("rank.tier3"));
                 }else if(args[0].equalsIgnoreCase("tier4") || args[0].equalsIgnoreCase("t4")){
                     player.sendMessage(ChatColor.AQUA + "Tier 4" + ChatColor.LIGHT_PURPLE + ": " + getConfig().getString("rank.tier4"));
-                }else if(args[0].equalsIgnoreCase("trialmod") || args[0].equalsIgnoreCase("tm")){
+                }else if(args[0].equalsIgnoreCase("trialmod") || args[0].equalsIgnoreCase("tm") || args[0].equalsIgnoreCase("t-mod")){
                     player.sendMessage(ChatColor.RED + "TrialMod" + ChatColor.LIGHT_PURPLE + ": " + getConfig().getString("rank.trialmod"));
                 }else if(args[0].equalsIgnoreCase("moderator") || args[0].equalsIgnoreCase("mod")){
                     player.sendMessage(ChatColor.RED + "Moderator" + ChatColor.LIGHT_PURPLE + ": " + getConfig().getString("rank.mod"));
